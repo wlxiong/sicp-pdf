@@ -137,7 +137,7 @@
       'letrec-syntax, 'syntax-rules},
     emphstyle=\color{SchemeDark},
     % Paint error red:
-    emph={[2]error},emphstyle=[2]\color{SchemeRed},%
+    emph={[2]error},emphstyle=[2]\color{SchemeDark},%
     % Builtins taken from functional.py:
     emph={[3]*, +, -, /, <, <=, =, >, >=, abs, acos, angle,
         append, apply, asin, assoc, assq, assv, atan,
@@ -177,13 +177,13 @@
         vector, vector->list, vector-fill!, vector-length,
         vector-ref, vector-set!, vector?, with-input-from-file,
         with-output-to-file, write, write-char, zero?},
-    emphstyle=[3]\color{SchemeViolet},%
+    emphstyle=[3]\color{SchemeDark},%
     %
-    basicstyle=\color{SchemeLight}\ttfamily,
-    keywordstyle=\color{SchemeBlue}\bfseries,
+    basicstyle=\color{SchemeDark}\ttfamily,
+    keywordstyle=\color{SchemeDark}\bfseries,
     identifierstyle=\color{SchemeDark},
-    stringstyle=\color{SchemeGreen},
-    commentstyle=\color{SchemeLight}\itshape,
+    stringstyle=\color{SchemeDark},
+    commentstyle=\color{SchemeDark}\itshape,
 }
 
 \newcommand{\acronym}[1]{\textsc{\fontspec[Numbers={OldStyle}]{Linux Libertine O}\MakeLowercase{#1}}}
@@ -215,7 +215,7 @@
 
 \titleformat{\chapter}[display]
   {\color{SchemeDark}\normalfont\sffamily\bfseries\LARGE}
-  {\filright \color{ChapterViolet}\sffamily\mdseries
+  {\filright \color{SchemeDark}\sffamily\mdseries
     \fontsize{6em}{0em}\selectfont
     \oldstylenums{\thechapter}}
   {1em}
@@ -223,15 +223,15 @@
 
 \titleformat{\section}
 {\color{SchemeDark}\normalfont\Large\sffamily\bfseries}
-{\color{DropCapViolet}\thesection}{0.8em}{}
+{\color{SchemeDark}\thesection}{0.8em}{}
 
 \titleformat{\subsection}
 {\color{SchemeDark}\normalfont\large\sffamily\bfseries}
-{\color{DropCapViolet}\thesubsection}{0.8em}{}
+{\color{SchemeDark}\thesubsection}{0.8em}{}
 
 \titleformat{\subsubsection}
 {\color{black}\normalfont\normalsize\sffamily\bfseries}
-{\color{DropCapViolet}\thesubsubsection}{0.8em}{}
+{\color{SchemeDark}\thesubsubsection}{0.8em}{}
 
 \setcounter{secnumdepth}{3}
 \setcounter{tocdepth}{3}
